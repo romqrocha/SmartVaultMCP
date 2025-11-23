@@ -2,19 +2,16 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.AI;
 using ModelContextProtocol.Client;
+using OllamaSharp;
 
 namespace MCPClient.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ChatController(
-    ILogger<ChatController> logger,
-    IChatClient chatClient,
-    IConfiguration configuration
-) : ControllerBase
+public class ChatController(ILogger<ChatController> logger, IConfiguration configuration)
+    : ControllerBase
 {
     private readonly ILogger<ChatController> _logger = logger;
-    private readonly IChatClient _chatClient = chatClient;
 
     private readonly IConfiguration? _configuration = configuration;
 
@@ -56,6 +53,16 @@ public class ChatController(
         // Get streaming response and collect updates
         List<ChatResponseUpdate> updates = [];
         StringBuilder result = new();
+
+        var ollama = new OllamaApiClient(new Uri("http://localhost:11434/"), "qwen3:8b");
+
+        var models = await ollama.ListLocalModelsAsync();
+        foreach (var model in models) 
+        {
+            Console.WriteLine(model.Name);
+        }
+
+        var _chatClient = new ChatClientBuilder(ollama).UseFunctionInvocation().Build();
 
         await foreach (
             var update in _chatClient.GetStreamingResponseAsync(
