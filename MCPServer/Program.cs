@@ -14,9 +14,7 @@ builder.Services.AddCors(options =>
         name: AllowMyOrigins,
         policy =>
         {
-            policy
-                .WithOrigins("http://smartvaultmcp.romqrocha.ca", "http://localhost:2110")
-                .SetIsOriginAllowedToAllowWildcardSubdomains();
+            policy.WithOrigins("https://smartvaultmcp.romqrocha.ca", "http://localhost:2110");
         }
     );
 });
