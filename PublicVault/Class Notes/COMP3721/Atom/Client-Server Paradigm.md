@@ -1,3 +1,0 @@
-- A [[Process-to-Process Communication]] between two application layers is provided
-- One at [[Client|Local Host]]
-- One at [[Server|Remote Host]]

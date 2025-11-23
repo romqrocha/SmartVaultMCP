@@ -1,3 +1,0 @@
-- Uses coroutines (or `asyncio` in python) that emulates [[#Tasks]]
-- Instead of the OS controlling the thread switching, developers must write the code that announces a switch
-- Allows us to control timing bugs

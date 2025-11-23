@@ -1,5 +1,0 @@
-- Multiple sending and receiving nodes all connected to the same single, shared broadcast channel
-	- Like the shared frequency for walkie-talkies
-- a [[Broadcast]] is any time a node transmits a frame
-	- Sends to everyone on the local [[Network]]
-- We need [[Multiple-access protocols]] to coordinate access to a multipoint link

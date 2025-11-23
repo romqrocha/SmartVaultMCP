@@ -1,3 +1,0 @@
-You had just a small taste of this topic in today's class on multi-threading. If you would like to know more, then I recommend: C++ Concurrency in Action" 2nd edition (you will likely need to copy the link below into your web browser):
-https://www.amazon.ca/gp/product/1617294691?ref=em_1p_1_ti&amp;ref_=pe_4690690_563111490
-I believe it succeeds in what it is trying to accomplish - teach the reader how to use the multi-threading and other methods of concurrency by way of the new features released in the new C++ standards. The reviews of this book on Amazon are generally very favorable.

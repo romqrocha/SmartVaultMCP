@@ -1,1 +1,0 @@
-- Composed of multiple [[Sine Wave|sine waves]]

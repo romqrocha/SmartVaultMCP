@@ -1,7 +1,0 @@
-- [x] #task 2522 Term project  [start:: 2024-10-11]  [due:: 2024-12-01]  [completion:: 2024-12-06]
-- [x] #task 2522 Lab  [repeat:: every week]  [start:: 2024-10-09]  [due:: 2024-10-16]  [completion:: 2024-11-04]
-- [x] #task 2522 Lab  [repeat:: every week]  [start:: 2024-10-16]  [due:: 2024-10-23]  [completion:: 2024-11-04]
-- [x] #task 2522 Lab  [repeat:: every week]  [start:: 2024-10-23]  [due:: 2024-10-30]  [completion:: 2024-11-04]
-- [x] #task 2522 Lab  [repeat:: every week]  [start:: 2024-10-30]  [due:: 2024-11-06]  [completion:: 2024-12-06]
-- [x] #task 2522 Lab  [start:: 2024-11-06]  [due:: 2024-11-13]  [completion:: 2024-12-06]
-- [x] #task Make a cheat sheet for Streams/IO  [priority:: medium]  [due:: 2024-11-04]  [completion:: 2024-11-12]

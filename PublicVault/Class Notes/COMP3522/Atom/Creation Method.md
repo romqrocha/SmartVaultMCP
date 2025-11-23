@@ -1,4 +1,0 @@
-- A method or function responsible for making an object
-- It is, by definition, a Factory, but not a [[Factory Pattern]]
-- Generally a wrapper around the initializer call
-- Can return cached objects or reuse objects from a collection - like threads!

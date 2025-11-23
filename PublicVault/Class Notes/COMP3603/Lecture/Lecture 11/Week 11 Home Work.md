@@ -1,1 +1,0 @@
-Chapter 21 from [[Paul J. Deitel, Harvey Deitel - C++ How to Program-Pearson (2016).pdf#page=2474&selection=0,0,2,6|Section 21.8]] to the end of the chapter, inclusive.

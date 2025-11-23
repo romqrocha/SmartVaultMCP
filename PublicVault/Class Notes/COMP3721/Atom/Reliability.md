@@ -1,3 +1,0 @@
-- The frequency of failure
-- The time it takes a [[Network Link]] to recover from failure
-- "Robustness" in a catastrophe

@@ -1,6 +1,0 @@
-- A domain in which a [[Broadcast]] is forwarded.
-- Contains all devices that can reach each-other at the [[Data-link Layer]] by using broadcast
-- A [[Hub]] is neither a collision domain separator nor a broadcast domain separator
-- A [[Switch]] collision domain separator because each **physical** ethernet port is in a different collision domain
-- A [[Router]] is a broadcast domain separator **and** a collision domain separator.
-	- A broadcast message sent from one network to another will never be received because the router will not forward it

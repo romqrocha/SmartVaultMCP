@@ -1,1 +1,0 @@
-I'm not sure you can enroll in this course without being a full time student. You will need to investigate if you wish to find out.

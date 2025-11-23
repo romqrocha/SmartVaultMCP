@@ -1,6 +1,0 @@
-- On traditional [[LAN]]s, you need to use physical hardware to separate hosts
-- VLANS separate hosts via software, not hardware
-- Split a LAN into **logical** LANs
-- VLAN define [[Broadcast Domain]]s
-	- Group stations belonging to one or more physical LANs into VLANs
-	- Stations in VLANs communicate as though they belong to a physical LAN

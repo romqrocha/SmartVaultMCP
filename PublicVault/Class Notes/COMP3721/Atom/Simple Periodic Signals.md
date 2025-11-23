@@ -1,2 +1,0 @@
-- A [[Sine Wave]]
-- Cannot be decomposed into simpler signals

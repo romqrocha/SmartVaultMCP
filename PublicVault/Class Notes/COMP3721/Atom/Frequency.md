@@ -1,8 +1,0 @@
-- The number of [[Period|Periods]] in 1 second
-- often represented as $f$
-- The inverse of Period; $f=1/T$
-- Measured in **Hertz**(Hz)
-	- Cycles/Second
-- If a signal does not change at all, its frequency is 0
-- If a signal changes instantly, its frequency is infinite
-- 

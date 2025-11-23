@@ -1,2 +1,0 @@
-- The position of a wave relative to time 0
-- Measured in rad($\pi$) or degrees($\degree$)

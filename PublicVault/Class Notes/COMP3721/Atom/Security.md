@@ -1,3 +1,0 @@
-- Ensuring data is protected from unauthorized access
-- Protecting data from damage and development
-- Implementing policies and procedures for recovery from breaches and data losses

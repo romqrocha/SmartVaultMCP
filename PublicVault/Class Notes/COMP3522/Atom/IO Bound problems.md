@@ -1,4 +1,0 @@
-- causes your program to run slowly because it spends the bulk of its time waiting for Input/Output operations. 
-- This usually happens when your program is working with things that are slower than the CPU, such as:  
-	- sending/receiving data across network connections  
-	- writing/reading from a file, etc.

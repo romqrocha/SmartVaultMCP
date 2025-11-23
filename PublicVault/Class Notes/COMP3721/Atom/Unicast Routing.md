@@ -1,6 +1,0 @@
-- If a [[Datagram]] is destined for **one** destination
-	- One-to-one delivery
-- Source host needs no forwarding table
-	- It delivers the packet to the [[Gateway|Default Router]]
-- Destination host needs to forwarding table
-	- It **receives** the packet from its [[Gateway|Default Router]]

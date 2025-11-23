@@ -1,3 +1,0 @@
-- [[Point-To-Point]]
-- [[Multipoint]]
-- 

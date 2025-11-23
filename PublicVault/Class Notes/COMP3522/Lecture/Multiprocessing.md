@@ -1,3 +1,0 @@
-- Launching multiple processes to achieve [[Concurrency]]
-- Limited by the number of cores you have
-- This is really expensive because you're running multiple instances of your application

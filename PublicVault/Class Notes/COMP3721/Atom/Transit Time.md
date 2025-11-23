@@ -1,2 +1,0 @@
-- The amount of time for a message to travel from one device to another
-- 

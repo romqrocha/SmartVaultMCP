@@ -1,2 +1,0 @@
-- A **Mo**dulator-**Dem**odulator
-- Changes the form of data

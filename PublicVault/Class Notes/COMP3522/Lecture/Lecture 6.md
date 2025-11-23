@@ -1,2 +1,0 @@
-![[Solid Design Principles]]
-

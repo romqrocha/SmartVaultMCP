@@ -1,9 +1,0 @@
- - If Functions 
-	- are first class citizens
-	- can be passed as arguments
-- Then
-	- you can call the function through a variable
-	- We can store functions as objects
-- So we can pass them around as arguments
-- We can them call them later in the future when the conditions are met
-	- This is a [[Callback Function]]

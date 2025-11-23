@@ -1,2 +1,0 @@
-- The absolute value of a signals highest intensity, proportional to the energy it carries
-- Normally measured in **Volts**($v$)

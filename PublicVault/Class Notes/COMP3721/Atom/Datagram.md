@@ -1,3 +1,0 @@
-- Variable-length packet consisting of a Header and a Payload
-	- Header has information essential to routing and delivery
-	- Payload is the packet/data coming from other protocol that use the service.
