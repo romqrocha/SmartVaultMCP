@@ -1,0 +1,2 @@
+- Uses [[Dijkstra's Algorithm]] to find the lowest-cost path from source to destination
+- You can make a [[Least-Cost Tree]] to visualize the paths

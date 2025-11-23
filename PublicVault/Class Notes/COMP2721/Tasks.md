@@ -1,0 +1,1 @@
+- [x] #task Assembly Project  [priority:: high]  [start:: 2024-11-21]  [due:: 2024-12-05]  [completion:: 2024-12-06]

@@ -1,0 +1,2 @@
+- A type of [[Mutual Exclusion]]
+- Uses the `Sleep` [[System Calls|System Call]] to suspend itself until another process wakes it up via the `wakeup` system call.

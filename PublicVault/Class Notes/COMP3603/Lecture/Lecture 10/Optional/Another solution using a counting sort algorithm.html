@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="color: #202122;">
+<pre><code>class Solution {
+public:
+    vector&lt;vector&lt;int&gt;&gt; mergeSimilarItems(vector&lt;vector&lt;int&gt;&gt;&amp; items1, vector&lt;vector&lt;int&gt;&gt;&amp; items2) {
+        int count[1001] = {0};  // will use in a counting sort
+
+        // We create sz1 and sz2 to avoid invoking the size() method so many times in the 
+        // the 2 for loops that follow below.
+        size_t sz1 = items1.size();
+        size_t sz2 = items2.size();
+
+        // Add 2D vector items1 to the map
+        for(int i = 0; i &lt; sz1;++i) {
+            count[items1[i][0]] = items1[i][1];
+        }
+
+        // Add 2D vector items2 to the map
+        for(int i = 0; i &lt; sz2;++i) {
+            count[items2[i][0]] += items2[i][1];
+        }
+
+        vector&lt;vector&lt;int&gt;&gt; result; // 2D vector we will store result into
+
+        // Iterate through count array adding non zero entries to result 2D vector
+        for(int i = 1; i &lt;= 1000; ++i)
+        {
+            if(count[i] != 0)
+            {
+                vector&lt;int&gt; v; // create temporary 1D vector to push onto result
+
+                // put value and weight into the 1D vector 
+                v.push_back(i);
+                v.push_back(count[i]);
+
+                result.push_back(v); // push the 1D vector onto the 2D vector
+            }
+        }
+
+        return result; 
+    }
+};</code></pre>
+</body>
+</html>

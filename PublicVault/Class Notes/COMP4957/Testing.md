@@ -1,0 +1,4 @@
+- JSON with the map
+- New level W Network Manager and EventSystem if we want to test clicks
+- Currently the map needs to be in a Hexgrid prefab
+	- Change this so the Network object takes a JSON file and creates its own hexgrid.

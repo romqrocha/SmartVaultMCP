@@ -1,0 +1,3 @@
+- A computer, laptop, cellphone, etc.
+- Sends a receives information
+- Implements all 5 layers of [[TCP-IP]]

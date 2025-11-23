@@ -1,0 +1,2 @@
+- Responsible for instruction execution
+- Follow the Fetch-Decode-Execute pattern 

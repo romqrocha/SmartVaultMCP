@@ -1,0 +1,2 @@
+- A type of [[Semaphore]]
+- Used to implemented Bounded Concurrency

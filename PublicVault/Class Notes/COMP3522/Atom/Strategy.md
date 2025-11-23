@@ -1,0 +1,5 @@
+- A [[Behavior Design Pattern]]
+- Simple design pattern that follows [[Liskov's Substitution Principle]]
+- Create a hierarchy of behaviors that inherit from a base class
+- You can then use Composition to swap behaviors at runtime
+- Seriously, its just Liskov/[[Polymorphism]]

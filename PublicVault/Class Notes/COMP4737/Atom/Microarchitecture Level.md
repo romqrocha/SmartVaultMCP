@@ -1,0 +1,3 @@
+- Level 1 of a [[Multilevel Machine]]
+- Instructions executed at this level employ [[Arithmetic Logic Unit]], [[Registers|Registers]], and [[Microprogram|Microprograms]]
+- #question Slide says "Assume that a program written in a high level language is translated to the low level machine language. A file is created after compilation containing some instructions in machine codes"; so C is translated to Assembly, and Assembly instructions are translated to Machine Code by the OS?

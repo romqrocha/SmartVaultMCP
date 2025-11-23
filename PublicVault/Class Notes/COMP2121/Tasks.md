@@ -1,0 +1,1 @@
+- [x] #task Assignment 2  [start:: 2024-10-28]  [due:: 2024-11-06]  [completion:: 2024-11-14]

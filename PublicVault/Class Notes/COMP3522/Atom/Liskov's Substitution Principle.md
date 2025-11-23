@@ -1,0 +1,2 @@
+- If *s* is a subtype of type *t* then objects of type *t* may be be replaced with objects of type *s*
+	- Should should be able to refer to all subclasses of a type by its common parent class

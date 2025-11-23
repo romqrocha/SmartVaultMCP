@@ -1,0 +1,4 @@
+# Creature
+## Instance Variables
+
+## Methods

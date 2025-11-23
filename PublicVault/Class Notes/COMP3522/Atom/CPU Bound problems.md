@@ -1,0 +1,1 @@
+A CPU Bound problem spends the bulk of its time processing data instead of waiting on Input/Output.

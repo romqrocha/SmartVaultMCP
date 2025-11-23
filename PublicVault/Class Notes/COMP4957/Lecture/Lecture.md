@@ -1,0 +1,70 @@
+# Engineering Patterns
+- Solutions to common problems
+- Blueprints for solving similar problems
+- Patterns exist at Code level **and** Architecture patterns
+# Architecture Patterns
+- Fundamental structure
+- System-Wide specifications
+- High-level, global components/views
+- Focus on:
+	- Decoupling
+	- Distributivity
+	- Functionality
+	- Reliability
+	- Scalability
+	- Security
+- Examples:
+	- Event-Driven
+		- You know this one.
+	- Layered
+		- Used for Data Communications
+		- Can also be used for lots of applications; like MVC
+		- Presentation(UI), Application(Service), Business Logic(Domain), Data Access(Persistence/DB)
+	- Microkernel
+		- Windows uses a pesudo-Micro
+			- Kernel has 2 parts; Executive and Kernel
+			- Executive sort of "Wraps" the Kernel
+			- Scheduling Processes
+				- Create/Terminate
+				- Put process to Run/Terminate
+				- Swap to/from main memory
+		- Think of a Microkernel as VS Code, Monolithic as Visual Studio
+	- Microservices
+	- MVC
+	- Client-Server
+	- Peer-to-Peer
+	- Blackboard
+	- Pipe-Filter
+		- Older; still used inside some OS
+		- Has been replaced largely by Sockets
+	- Interpreter
+	- Producer-Consumer
+		- Most general pattern of communication
+		- Used for concurrent processes
+![[Module 6 Architectural and Design Patterns 2025.pdf#page=17|Module 6 Architectural and Design Patterns 2025, p.17]]
+
+# Design Patterns
+- Solves a specific software pattern
+- Gives specifications to support coding
+- Creational:
+	- Abstract Factory
+	- Builder
+	- Factory
+	- Prototype
+	- Singleton
+		- One of the best-known patterns in software engineering
+		- Restrict instantiation of a class
+	- Dependency Injection
+		- 
+- Structural
+	- Adapter
+	- Composite
+	- Decorator
+	- Facade
+	- Proxy
+- Behavioral
+	- Iterator
+	- State
+	- Observer
+	- Strategy
+# 

@@ -1,0 +1,2 @@
+- A dedicated [[Network Link]] between two devices
+- Entire capacity of the link is reserved for transmission between the two devices

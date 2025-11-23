@@ -1,0 +1,1 @@
+- a [[Structural Design Pattern]]

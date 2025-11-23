@@ -1,0 +1,2 @@
+- A module for the [[Operating System]] to communicate with [[IO Devices]]
+- Usually run in [[Kernel Mode]]

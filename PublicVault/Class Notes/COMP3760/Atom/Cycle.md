@@ -1,0 +1,1 @@
+A graph where a path ends where it started

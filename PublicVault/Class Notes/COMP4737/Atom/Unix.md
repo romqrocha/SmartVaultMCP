@@ -1,0 +1,8 @@
+- One of the most influential [[Operating System]] in the history of computing
+- Introduced the concept of a modular design with a small, core set of utilities and a powerful command-line interface
+- Used a hierarchical file system
+- Design emphasized simplicity and reusability of code
+- Shaped many modern operating systems
+- Because the source code was widely available, it led to a ton of spinoffs that were incompatible with UNIX and each-other
+	- [[IEEE]] developed the [[POSIX]] standard to create a common interface
+	- The desire to create a free, non-education version lead to the creation of [[Linux]]

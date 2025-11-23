@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html><head>
+</head>
+<body style="color: #202122;">
+<pre><code></code></pre>
+<div>
+<div>class Solution {</div>
+<div>public:</div>
+<div>&nbsp; &nbsp; vector&lt;vector&lt;int&gt;&gt; mergeSimilarItems(vector&lt;vector&lt;int&gt;&gt;&amp; items1, vector&lt;vector&lt;int&gt;&gt;&amp; items2) {<br><br></div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; map&lt;int,int&gt; mp; // create map to add the 2 - 2D vectors to</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; // We create sz1 and sz2 to avoid invoking the size() method multiple times in the</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; // the 2 for loops that follow below.</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; size_t sz1 = items1.size();</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; size_t sz2 = items2.size();</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; // Add 2D vector items1 to the map</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; for(int i = 0; i &lt; sz1;++i) {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mp.insert(std::pair&lt;int,int&gt;(items1[i][0],items1[i][1]));</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; // Add 2D vector items2 to the map</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; for(int i = 0; i &lt; sz2;++i) {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(mp.find(items2[i][0]) != mp.end())</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;mp[items2[i][0]] += items2[i][1]; // if item was in items1</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; else</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mp[items2[i][0]] = items2[i][1]; // if item was not in items1</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; vector&lt;vector&lt;int&gt;&gt; result; // 2D vector we will store result into</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; for(auto item : mp) { // iterate through items in map</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; vector&lt;int&gt; v; // create temporary 1D vector to push onto result</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // put value and weight into the 1D vector</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v.push_back(item.first);</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; v.push_back(item.second);</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; result.push_back(v); // push the 1D vector onto the 2D vector</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+<br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; // We are done. Now simply return result 2D vector</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; return result;</div>
+<div>&nbsp; &nbsp; }</div>
+<div>};</div>
+</div>
+<pre><code>&nbsp;</code></pre>
+</body></html>

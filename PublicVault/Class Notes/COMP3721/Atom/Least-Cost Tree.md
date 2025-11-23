@@ -1,0 +1,4 @@
+- A [[Spanning Tree]] with the source router as the root and spans the whole graph
+- One one path for each node
+- If there are $N$ routers, there are $N-1$ least-cost paths from each router to any other router
+	- $\therefore N*(N-1)$ paths for the whole internet 

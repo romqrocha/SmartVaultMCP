@@ -1,0 +1,2 @@
+- Defines a minimal System-Call interface that [[Unix]] systems must support.
+- Some other operating systems now, also, support POSIX

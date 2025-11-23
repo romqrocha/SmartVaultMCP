@@ -1,0 +1,4 @@
+- Includes entries for hosts and routers
+- Is empty in a new switch
+- Every entry has at least a MAC address and which ethernet port has that that device connected to it
+- If no address is found, broadcast to all ports except the arriving port

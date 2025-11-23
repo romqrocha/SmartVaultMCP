@@ -1,0 +1,7 @@
+- Created as an open-source alternative to [[Unix]]
+- Made by [[Linus Torvalds]]
+- Know for its robustness, flexibility, and modularity
+- Supports a wide range of hardware architectures
+- Popular in servers, desktops, and embedded systems
+- Used in everything from Android to supercomputers
+- Forms the basis of [[Android]]

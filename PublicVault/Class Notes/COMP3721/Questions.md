@@ -1,0 +1,16 @@
+![[IPv4_Hierarchy.png]]
+- does it mean that all devices on the same network have the same prefix and the suffix is the specific device on that network?
+- If there was an issue of IPv4 address depletion, way has uptake of IPv6 been so slow?
+- What does it mean that each organization got a "fair share" of addresses?
+- I don't fully understand the "Addresses should be divisible" rule.
+	- Why is this important overall?
+	- Starting address in each subnet should be divisible by the number of addresses in that subnet
+		- Can be achieved if we first assign addresses to larger subnets - Why? How?
+- Extracting address information for sub masks
+	- Do the addresses of sub masks always start/stop adjacent to each other?
+	- If yes, isn't it literally just $0 \rightarrow 0+2^{log_2 n}$ for the first address?
+- Are the special addresses just for subnets, or for all IPv4 addresses?
+	- The loopback address seems like a rather large block of addresses, doesn't that severely limit the addresses we can send to? Why was 127.0.0.0/8 number chosen?
+	- Any other information on private and multicast addresses?
+- Longest mask matching:
+	- Does the router use xor for prefix matching? 

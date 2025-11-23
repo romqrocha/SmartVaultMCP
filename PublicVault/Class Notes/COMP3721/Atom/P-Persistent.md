@@ -1,0 +1,16 @@
+- Constantly sense the channel
+	- If busy
+		- repeat
+	- If not busy
+		- Generate a random number, $R$, between 0 and 1
+			- If the number is less than P
+				- send
+				- go back to top
+			- If its not
+				- wait for 1 frame time
+				- If channel is not busy
+					- Go to Generate $R$
+				- If is busy
+					- Use act as though collision occurred 
+- Slot duration is equal to, or greater than, the maximum propagation time
+![[DataComm_PPersistent.png]]

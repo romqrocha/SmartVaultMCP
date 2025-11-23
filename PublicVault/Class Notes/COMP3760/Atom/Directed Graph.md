@@ -1,0 +1,2 @@
+- A [[Graph]]
+- all [[Edges]] are directional or one-way.

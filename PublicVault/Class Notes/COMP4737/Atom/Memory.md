@@ -1,0 +1,7 @@
+- Where values are read and written to.
+- either Volatile or Non-Volatile
+- There is a natural hierarchy
+	- [[Registers]]
+	- [[Cache]]
+	- [[Main Memory]]
+	- [[Nonvolatile Storage]]

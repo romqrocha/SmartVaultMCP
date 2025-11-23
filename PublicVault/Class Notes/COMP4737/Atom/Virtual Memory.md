@@ -1,0 +1,1 @@
+- Makes it possible to run programs that are larger than [[Main Memory|RAM]] by placing them in [[Nonvolatile Storage]] and using 

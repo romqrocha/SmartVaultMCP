@@ -1,0 +1,2 @@
+
+- [x] #task Keep reading [[Andrew S. Tanenbaum, Herbert Bos - Modern Operating Systems-Pearson (2023).pdf#page=60&selection=14,0,14,28|Andrew S. Tanenbaum, Herbert Bos - Modern Operating Systems-Pearson (2023), page 60]]  [start:: 2025-06-08]  [due:: 2025-06-09]  [completion:: 2025-06-12]

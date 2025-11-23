@@ -1,0 +1,36 @@
+# Logic Fundamentals
+- Usually at least 1 trick question
+- "Come up with an argument that answers to the following specifications: 1 false premise, valid, sound. Explain why it is/isn't possible"(It isn't; can't have a sound argument with false premise)
+- Valid argument:
+	- All premises lead to the conclusion
+	- If all premises are true, then the conclusion **must** be true
+- T+T=T
+	- A number has no decimal places
+	- A number is > 0
+	- Therefore a number is a Real number
+- F+T=F
+	- BCIT is in Alberta
+	- I am at BCIT
+	- Therefore I am in Alberta
+- F+T=T
+	- Hockey is only played is North America 
+	- The Stanley cup is in North America
+	- Therefore only North American teams can have the Stanley cup
+	- Trick: 
+		- Absolute (ALL of something); all mammals are dogs
+		- Specific: (Cats are Mammals)
+		- Truth:
+# Relativism
+- Normative: Different cultures have different moral rules, and there is no universal moral truth
+	- To prove/disprove: Write an article dismantling a point and demonstrate it doesn't work
+- Descriptive: Different cultures have different moral rules
+	- To prove/disprove, literally just observe/talk to people and see
+- Objectivism: 
+	- Can be absolutist or not; allows for exceptions 
+- Absolutism: 
+	- There are no exceptions; like Lying in Kant
+- Relativist:
+	- Things are measured in relation to other things
+	- Theoretically: No absolutes
+# Utilitarian
+- 

@@ -1,0 +1,13 @@
+- Can be measured in many ways, such as
+	- [[Transit Time]]
+	- [[Response Time]]
+	- [[Throughput]]
+	- [[Delay]]
+- Depends on a number of factors:
+	- Number of [[Host|users]]
+	- [[Transmission Medium]]
+	- Hardware capabilities
+	- Software Efficiency
+- We often need **more** throughput and **less** delay
+	- Often contradictory
+	- If we send more data, we increase throughput but also increase delay due to congestion

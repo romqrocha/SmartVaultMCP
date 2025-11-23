@@ -1,29 +1,19 @@
 using MCPServer.Services;
 
-var AllowMyOrigins = "_allowMyOrigins";
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMcpServer().WithHttpTransport().WithToolsFromAssembly();
 
-builder.Services.AddMoltenObsidianInMemoryVault("TestVault");
+var vault = builder.Configuration["VaultDirectory"];
+builder.Services.AddMoltenObsidianFileSystemVault(
+    new DirectoryInfo(
+        vault ?? throw new NullReferenceException("VaultDirectory is null in configuration")
+    )
+);
 
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(
-        name: AllowMyOrigins,
-        policy =>
-        {
-            policy.WithOrigins("https://smartvaultmcp.romqrocha.ca", "http://localhost:2110");
-        }
-    );
-});
-
-builder.Services.AddTransient<IFileService, DefaultFileService>();
+builder.Services.AddTransient<IVaultService, DefaultVaultService>();
 
 var app = builder.Build();
-
-app.UseCors(AllowMyOrigins);
 
 app.MapMcp();
 

@@ -1,0 +1,4 @@
+- All threads that belong to a process run on a single processor/core
+	- This means only a single thread can be active at any given time
+	- Threads are processed sequentially and not in parallel
+- [[Operating System]] is responsible for interrupting and switching threads to give the illusion of concurrency

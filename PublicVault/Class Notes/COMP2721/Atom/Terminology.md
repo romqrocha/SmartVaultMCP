@@ -1,0 +1,23 @@
+# Terminology
+- bit : 0 or 1
+- byte: 8 bit word
+- word: 32 bit, 64 bit
+	- Decided by the register
+- Register: Computer(CPU) memory
+	- By definition, stores 1 word.
+- CPU: Continually executes the FDE
+- FDE: Fetch Decode Execute
+- RAM: Main memory
+- Cache: 
+	- Smaller than Register
+	- Closer to CPU
+	- more expensive(Money wise) than RAM
+	- faster than accessing main memory, slower than register
+- Bus: Common/shared path among devices for data to travel
+- 2$^6$ = 16
+- 2$^{10}$ = 1024k
+- 2$^{14}$ = 2^4 * 2^10 = 16k
+- 2$^{20}$ = 1M
+- 2$^{30}$ = 1G
+- 2$^{40}$ = 1T
+- 2$^{17}$ = 128k

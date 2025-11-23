@@ -1,0 +1,8 @@
+- One entry per process
+- Each entry has information about the process' state, such as:
+	- Program counter
+	- stack pointer
+	- memory allocation
+	- open files
+	- accounting and scheduling
+	- Anything else that must be saved and loaded when the process changes states(a [[Context Switch]])

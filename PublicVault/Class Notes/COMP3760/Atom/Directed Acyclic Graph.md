@@ -1,0 +1,6 @@
+- a [[Directed Graph]]
+- Contains no [[Cycle]]
+- There is always be at least 1 Vertex that has no dependencies
+- Degree is number of connections
+	- In-degree in number of dependencies
+	- out-degree is the number of vertexes dependent on this one

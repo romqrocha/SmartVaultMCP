@@ -1,0 +1,1 @@
+- A part of the network where packet [[Collisions]] can occur

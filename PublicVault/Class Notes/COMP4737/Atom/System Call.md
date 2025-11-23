@@ -1,0 +1,1 @@
+- A special type of [[Procedure Call]] that switches from [[User Mode]] to [[Kernel Mode]]

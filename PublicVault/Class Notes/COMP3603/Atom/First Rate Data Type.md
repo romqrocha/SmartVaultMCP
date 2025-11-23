@@ -1,0 +1,1 @@
+- Behaves just like a built-in data type

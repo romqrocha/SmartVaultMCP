@@ -1,0 +1,9 @@
+- is [[Structural Design Pattern]]
+- is [[Wrapper]]
+- Lets us split a large class, or a set of closely related classes, into separate hierarchies
+- Usually split into 2 categories:
+	- Abstractions
+		- The wrapper
+		- The **controller**
+	- Implementations
+		- The wrappee

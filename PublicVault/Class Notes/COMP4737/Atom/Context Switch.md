@@ -1,0 +1,2 @@
+- The process of saving or loading a [[Process]]
+- When the scheduler switches from one process to another, it saves all the [[Process Table]] into the process's [[Process Control Block]]

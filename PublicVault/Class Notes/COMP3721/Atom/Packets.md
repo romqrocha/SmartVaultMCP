@@ -1,0 +1,2 @@
+- Size is determined by the [[Network]] and the governing [[Protocol]]
+- 

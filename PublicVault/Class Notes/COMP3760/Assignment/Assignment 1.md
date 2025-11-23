@@ -1,0 +1,8 @@
+- [ ] Class `JobAssignmentFinder`
+- [ ] Method `public void readDataFile(String)`
+- [ ] Method `public int getInputSize()`
+- [ ] Method `public int[][] getBenefitMatrix()`
+- [ ] Method `public String benefitMatrixToString()`
+- [ ] Method `public ArrayList<Integer> getMaxAssignment()`
+- [ ] Method `public int getMaxAssignmentTotalValue()`
+- [ ] Method `public int getBenefit(int, int)`

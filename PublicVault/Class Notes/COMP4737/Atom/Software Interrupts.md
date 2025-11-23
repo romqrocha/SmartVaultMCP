@@ -1,0 +1,5 @@
+---
+aliases:
+  - Traps
+---
+![[System Calls]]

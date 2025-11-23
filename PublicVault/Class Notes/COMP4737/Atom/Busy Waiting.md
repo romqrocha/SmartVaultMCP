@@ -1,0 +1,4 @@
+- A type of [[Mutual Exclusion]]
+- Continuously testing a variable until a [[Lock Variable|Lock]] is available
+- Should be avoided since it wastes CPU time.
+- A [[Lock Variable]] that uses Busy Waiting is called a Spin Lock

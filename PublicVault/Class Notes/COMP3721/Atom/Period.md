@@ -1,0 +1,4 @@
+- The time for a signal to complete 1 cycle
+- Often represented as $T$
+- inverse [[Frequency]]
+	-  $T = 1/f$

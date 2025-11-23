@@ -1,0 +1,3 @@
+- a pseudo-file that can be used to connect [[Process|Processes]]
+- Used for unidirectional communicated between related processes
+- One process generates an output that another uses as input

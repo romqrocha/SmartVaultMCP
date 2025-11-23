@@ -1,0 +1,7 @@
+The code in this start folder is of the Array class from Chapter 10, with some modifications to the client code - main() in other words.
+
+Your task is to modify the method:
+
+int &Array::operator[]( int subscript );
+
+in the Array.cpp file so that if the subscript is too large, instead of throwing an exception, you increase the size of the array enough so that the subscript becomes valid.  My solution doubles the size of the data memeber "size" until it is large enough. Then you copy over values of old array to the new array and set the new elements added to 0. And then release the old array and update member variables appropriately.

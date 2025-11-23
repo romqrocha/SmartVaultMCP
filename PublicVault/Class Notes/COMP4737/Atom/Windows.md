@@ -1,0 +1,3 @@
+- Started as MS-DOS, which lacked a GUI
+- Windows started as an overlay of the MS-DOS
+- 

@@ -1,0 +1,7 @@
+- A set of addresses associated with a [[Process]]
+- The set of addresses a process can use to address memory
+- Early Memory Management schemes uses some registers to limit access to outside memory
+	- The Base Register is the starting point of the address space
+		- It updates with each instruction
+	- Limit Register is the size of the address space
+	- When a process attempts to access memory, the address is compared to the limit register to make sure its in range.

@@ -1,0 +1,5 @@
+- The [[Connection Types|interconnection]] of devices capable of communication
+- A device can be a [[Host]] or a Connecting Device such as a [[Router]], [[Switch]], or [[Modem]]
+- Must be able to meet a number of [[Network Criteria|Criteria]]
+- Devices are connected in a type of [[Network Topology|topology]]
+- 
