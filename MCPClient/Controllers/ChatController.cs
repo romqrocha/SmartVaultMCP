@@ -57,7 +57,7 @@ public class ChatController(ILogger<ChatController> logger, IConfiguration confi
         var ollama = new OllamaApiClient(new Uri("http://localhost:11434/"), "qwen3:8b");
 
         var models = await ollama.ListLocalModelsAsync();
-        foreach (var model in models) 
+        foreach (var model in models)
         {
             Console.WriteLine(model.Name);
         }
